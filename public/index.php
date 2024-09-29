@@ -37,7 +37,7 @@ background-color: #EEEDEB; border-radius: 15px; padding: 20px 25px 28px; box-sha
         </form>
         <hr style="color: #EEEDEB;">
         <form action="" id="form-inventory" method="get" style="line-height: 15px; margin: 1rem 20px 32px;">
-            <input type="text" id=search-name-tag" placeholder="Search Item" name="search-name" required
+            <input type="text" id=search-name-tag" placeholder="Search Item" name="search-name" 
             style="font-family: 'Satoshi', sans-serif; font-weight: 700; border-radius: 15px; margin: 10px; padding: 5px; ">
            
             <button type="submit" name="item-search" style=" text-align: center;
