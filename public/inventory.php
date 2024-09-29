@@ -3,6 +3,8 @@ session_start();
     //init inventory when it doesn't exist
     $_SESSION['item-inventory'] = $_SESSION['item-inventory'] ?? [];
 
+    // $inventory = $_SESSION['item-inventory'];
+
     $inventory = $_SESSION['item-inventory'];
     $msg = '';
     $search = '';
@@ -54,6 +56,10 @@ session_start();
         $msg = ''; 
         $inventory = searchItemInInventory($_GET['search-name']);  
     }
+
+    // if (!isset($_GET['item-search']) && !isset($_POST['item-add'])) {
+    //     $inventory = $_SESSION['item-inventory'];
+    // }
 
     //var_dump($_SESSION['item-inventory']);
 ?>
